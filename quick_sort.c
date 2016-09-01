@@ -1,11 +1,10 @@
 /*************************************************************************
- * File Name: test0004.c
+ * File Name: quic_sort.c
  *
- * Copyright (c) 2015, Spreadtrum Limited
+ * Copyright (c) 2016, Xiaoran Li Limited
  * All rights reserved.
  *
  *
- * xiaoran.li@spreadtrum.com  truth plaza  Haidian
  * 2016年07月20日 星期三 23时58分03秒
  ************************************************************************/
 
@@ -23,7 +22,11 @@ int na[] = {1, 2, 3, 4, 5, 6};
 //int na[] = {4, 3};
 
 #if 1
-/* @min is the lower index of @na, @max is upper index + 1 */
+/**
+ * func - dichotomy to sort
+ * @min is the lower index of @na,
+ * @max is upper index + 1
+ **/
 void func(int min, int max)
 {
 	int i = min, j = max + 1, a = na[min], b;
