@@ -1,4 +1,2 @@
-# hello-world
-my tutorial repository
-for branch test
-two for test
+# discovery-imagination
+discovery by imagination
