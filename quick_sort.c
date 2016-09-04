@@ -12,6 +12,7 @@
 
 #define N 6
 
+/* data cases for testing */
 //int na[] = {4, 2, 1, 5, 6, 3};
 //int na[] = {3, 2, 1, 4, 6, 5};
 //int na[] = {6, 5, 4, 3, 2, 1};
